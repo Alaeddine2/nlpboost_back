@@ -1,0 +1,31 @@
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2020-09-14T09:52:11.910Z"}
+{"message":"Must specify installationId when deviceToken matches multiple Installation objects","code":132,"level":"error","stack":"Error: Must specify installationId when deviceToken matches multiple Installation objects\n    at C:\\Users\\mejdi\\Desktop\\Worspace\\taxi_server\\node_modules\\parse-server\\lib\\RestWrite.js:1046:15\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","timestamp":"2020-09-14T09:52:25.478Z"}
+{"level":"info","message":"Create new client: 1b68886f-90b1-494f-a640-529498dc3651","timestamp":"2020-09-14T09:54:35.148Z"}
+{"level":"info","message":"Create new client: d155587f-d673-4e45-8761-7909197f47db","timestamp":"2020-09-14T09:59:01.660Z"}
+{"level":"info","message":"Client disconnect: d155587f-d673-4e45-8761-7909197f47db","timestamp":"2020-09-14T10:04:25.269Z"}
+{"level":"info","message":"Client disconnect: 1b68886f-90b1-494f-a640-529498dc3651","timestamp":"2020-09-14T10:04:30.396Z"}
+{"message":"Must specify installationId when deviceToken matches multiple Installation objects","code":132,"level":"error","stack":"Error: Must specify installationId when deviceToken matches multiple Installation objects\n    at C:\\Users\\mejdi\\Desktop\\Worspace\\taxi_server\\node_modules\\parse-server\\lib\\RestWrite.js:1046:15\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","timestamp":"2020-09-14T10:08:24.375Z"}
+{"level":"info","message":"Create new client: e9928663-a6b9-411f-8cd1-989530b458c4","timestamp":"2020-09-14T10:08:27.853Z"}
+{"message":"Must specify installationId when deviceToken matches multiple Installation objects","code":132,"level":"error","stack":"Error: Must specify installationId when deviceToken matches multiple Installation objects\n    at C:\\Users\\mejdi\\Desktop\\Worspace\\taxi_server\\node_modules\\parse-server\\lib\\RestWrite.js:1046:15\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)","timestamp":"2020-09-14T10:09:03.630Z"}
+{"level":"info","message":"Create new client: f11838bc-72d6-4ea8-96a7-f86fc23e9a7d","timestamp":"2020-09-14T10:09:06.284Z"}
+{"level":"info","message":"Client disconnect: f11838bc-72d6-4ea8-96a7-f86fc23e9a7d","timestamp":"2020-09-14T10:10:15.156Z"}
+{"level":"info","message":"Client disconnect: e9928663-a6b9-411f-8cd1-989530b458c4","timestamp":"2020-09-14T10:10:15.221Z"}
+{"level":"info","message":"Create new client: 31f22ec7-2389-4114-9450-e1c35ed2d2d3","timestamp":"2020-09-14T10:17:27.689Z"}
+{"level":"info","message":"Client disconnect: 31f22ec7-2389-4114-9450-e1c35ed2d2d3","timestamp":"2020-09-14T10:30:06.784Z"}
+{"level":"info","message":"Create new client: b746d106-e4b1-4122-8e38-35d1b0012235","timestamp":"2020-09-14T10:36:34.157Z"}
+{"level":"info","message":"Client disconnect: b746d106-e4b1-4122-8e38-35d1b0012235","timestamp":"2020-09-14T10:42:41.670Z"}
+{"level":"info","message":"Create new client: 272eeb09-605e-4737-abe4-666133e299b0","timestamp":"2020-09-14T10:45:15.400Z"}
+{"level":"info","message":"Client disconnect: 272eeb09-605e-4737-abe4-666133e299b0","timestamp":"2020-09-14T10:45:53.485Z"}
+{"level":"info","message":"Create new client: dea7bd5c-6ea5-4f2b-8fc0-153df1e2bb5e","timestamp":"2020-09-14T10:46:00.855Z"}
+{"level":"info","message":"Create new client: 2618a711-ccdc-40e7-9a8c-92077435390f","timestamp":"2020-09-14T10:47:09.611Z"}
+{"level":"info","message":"Client disconnect: 2618a711-ccdc-40e7-9a8c-92077435390f","timestamp":"2020-09-14T10:54:09.526Z"}
+{"level":"info","message":"Create new client: 67c00310-bea9-428b-b71a-574f266d7b0d","timestamp":"2020-09-14T10:55:08.487Z"}
+{"level":"info","message":"Client disconnect: dea7bd5c-6ea5-4f2b-8fc0-153df1e2bb5e","timestamp":"2020-09-14T10:56:34.027Z"}
+{"level":"info","message":"Create new client: dcceab58-b4da-4289-b38e-9c179fc7954f","timestamp":"2020-09-14T10:56:43.519Z"}
+{"level":"info","message":"Client disconnect: dcceab58-b4da-4289-b38e-9c179fc7954f","timestamp":"2020-09-14T10:56:55.892Z"}
+{"level":"info","message":"Client disconnect: 67c00310-bea9-428b-b71a-574f266d7b0d","timestamp":"2020-09-14T11:28:02.042Z"}
+{"level":"info","message":"Create new client: ee3051d0-a6ab-40cd-ba17-b5d378c99b11","timestamp":"2020-09-14T11:28:13.992Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2020-09-14T13:04:56.064Z"}
+{"level":"info","message":"Create new client: 187a7b0e-a684-4c5c-b98a-a7df76cc7dd6","timestamp":"2020-09-14T13:04:56.880Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2020-09-14T13:06:43.878Z"}
+{"level":"info","message":"Create new client: 70de3e15-2d35-48c0-a15c-2673575c28f6","timestamp":"2020-09-14T13:06:48.288Z"}

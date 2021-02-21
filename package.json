@@ -1,0 +1,37 @@
+{
+    "name": "bujupah-server",
+    "version": "1.0.0",
+    "description": "A realtime server made with ParseServerSDK and MongoDB",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dash": "node dashboard.js",
+        "test": "echo Error: no test specified"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Bujupah/taxi_server.git"
+    },
+    "keywords": [
+        "parse",
+        "server",
+        "mongodb",
+        "nodejs"
+    ],
+    "author": "Khalil Mejdi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Bujupah/taxi_server/issues"
+    },
+    "homepage": "https://github.com/Bujupah/taxi_server#readme",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "nodemailer": "^6.4.18",
+        "parse-dashboard": "^2.1.0",
+        "parse-server": "^4.2.0",
+        "parse-smtp-template": "^2.0.1"
+    }
+}
