@@ -29,8 +29,8 @@ var parseServer = new ParseServer({
     fileKey: env.PARSE_FILEKEY || 'NplBoostFileKey',
     webhookKey: env.PARSE_WEBHOOKKEY || 'NplBoostWebhookKey',
     dotNetKey: env.PARSE_DOTNETKEY || 'NplBoostDotNetKey',
-    serverURL: `${host}:${port}${mountPath}`,
-    publicServerURL: `${host}:${port}${mountPath}`,
+    serverURL: `${host}${mountPath}`,//:${port}
+    publicServerURL: `${host}${mountPath}`,//:${port}
     verifyUserEmails: false, 
     emailVerifyTokenValidityDuration: 24 * 60 * 60,
     preventLoginWithUnverifiedEmail: false,
@@ -133,8 +133,7 @@ app.use('/public', express.static(path.join(__dirname, '/public')));
 // app.get('/choosePassword', function (_, res) { res.sendFile(path.join(__dirname, '/public/choose_password.html')); });
 
 app.get('/', function (_, res) { res.json({res: 'I wish that I became a dashboard'}) })
-app.get('/returnPayment', function (_, res) { res.json({res: 'Sucess Payment'}) })
-app.get('/cancelPayment', function (_, res) { res.json({res: 'Failed Payment'}) })
+
 parseGraphQLServer.applyGraphQL(app);
 parseGraphQLServer.applyPlayground(app);
 
