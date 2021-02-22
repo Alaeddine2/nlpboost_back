@@ -16,7 +16,7 @@ let mountPathDash = env.PARSE_MOUNT_DASH || '/dashboard'
 let mountPathGraphQL = env.PARSE_MOUNT_GRAPHQL || '/graphql'
 
 let hasSMTPInfo = env.EMAIL_USER && env.EMAIL_PASSWORD
-
+console.log('URL:' + `${host}:${port}${mountPath}`);
 var parseServer = new ParseServer({
     cloud: __dirname + '/cloud/main.js',
     databaseURI: databaseUri,
