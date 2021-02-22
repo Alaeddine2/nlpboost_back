@@ -29,8 +29,8 @@ var parseServer = new ParseServer({
     fileKey: env.PARSE_FILEKEY || 'NplBoostFileKey',
     webhookKey: env.PARSE_WEBHOOKKEY || 'NplBoostWebhookKey',
     dotNetKey: env.PARSE_DOTNETKEY || 'NplBoostDotNetKey',
-    serverURL: `${host}${mountPath}`,//:${port}
-    publicServerURL: `${host}${mountPath}`,//:${port}
+    serverURL: `${host}:${port}${mountPath}`,
+    publicServerURL: `${host}:${port}${mountPath}`,
     verifyUserEmails: false, 
     emailVerifyTokenValidityDuration: 24 * 60 * 60,
     preventLoginWithUnverifiedEmail: false,
@@ -94,8 +94,8 @@ let dashboard = new ParseDashboard({
             clientKey: env.PARSE_CLIENTKEY || 'NplBoostClientKey',
             javascriptKey: env.PARSE_JAVASCRIPTKEY || 'NplBoostJavascriptKey',
             restApiKey: env.PARSE_RESTAPIKEY || 'NplBoostApiKey',
-            graphQLServerURL: `${host}:${port}${mountPathGraphQL}`,
-            serverURL: `${host}:${port}${mountPath}`,
+            graphQLServerURL: `${host}:${port}${mountPathGraphQL}`,//
+            serverURL: `${host}:${port}${mountPath}`,//
             iconName: env.DASH_ICON || "logo.png"
         },
     ],
@@ -108,21 +108,13 @@ let dashboard = new ParseDashboard({
     ]
 }, { allowInsecureHTTP: true });
 
-/*var transport = nodemailer.createTransport({
-    host: "smtp.mailtrap.io",
-    port: 2525,
-    auth: {
-      user: "85b717a3ce802f",
-      pass: "71b7b214d1353b"
-    }
-});*/
 
 let app = express();
 
 app.use(mountPath, parseServer.app);
 app.use(mountPathDash, dashboard);
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+//app.use(bodyParser.json());
+//app.use(bodyParser.urlencoded({extended: true}));
 app.use('/public', express.static(path.join(__dirname, '/public')));
 // app.get('/passwordResetSuccess', function (_, res) { res.sendFile(path.join(__dirname, '/public/password_reset_success.html')); });
 // app.get('/verifyEmailSuccess', function (_, res) { res.sendFile(path.join(__dirname, '/public/verify_email_success.html')); });
@@ -140,7 +132,7 @@ parseGraphQLServer.applyPlayground(app);
 var server = http.createServer(app);
 
 server.listen(port, function () {
-    console.log('\ndatabaseUri: '+ databaseUri)
+    ///console.log('\ndatabaseUri: '+ databaseUri)
     console.log('\nNLPBOOST server is now running on port ' + port + '.');
     console.log(`\nServer URL   : ${host}:${port}${mountPath}`);
     console.log(`GraphQL URL  : ${host}:${port}${mountPathGraphQL}`);

@@ -13,14 +13,14 @@ let app = express();
 let dashboard = new ParseDashboard({
     apps: [
         {
-            appName: env.PARSE_APPNAME || 'TunavTaxi',
-            appId: env.PARSE_APPID || 'TunavTaxiAppId',
-            masterKey: env.PARSE_MASTERKEY || 'TunavTaxiMasterKey',
-            clientKey: env.PARSE_CLIENTKEY || 'TunavTaxiClientKey',
-            javascriptKey: env.PARSE_JAVASCRIPTKEY || 'TunavTaxiJavascriptKey',
-            restApiKey: env.PARSE_RESTAPIKEY || 'TunavTaxiApiKey',
-            graphQLServerURL: `${host}${mountPathGraphQL}`,
-            serverURL: `${host}${mountPath}`,
+            appName: env.PARSE_APPNAME || 'NplBoost',
+            appId: env.PARSE_APPID || 'NplBoostAppId',
+            masterKey: env.PARSE_MASTERKEY || 'NplBoostMasterKey',
+            clientKey: env.PARSE_CLIENTKEY || 'NplBoostClientKey',
+            javascriptKey: env.PARSE_JAVASCRIPTKEY || 'NplBoostJavascriptKey',
+            restApiKey: env.PARSE_RESTAPIKEY || 'NplBoostApiKey',
+            graphQLServerURL: `${host}:${port}${mountPathGraphQL}`,//
+            serverURL: `${host}:${port}${mountPath}`,//
             iconName: env.DASH_ICON || "logo.png"
         },
     ],

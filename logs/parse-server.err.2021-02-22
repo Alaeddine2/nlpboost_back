@@ -1,0 +1,6 @@
+{"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:20:52.290Z"}
+{"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:22:04.770Z"}
+{"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:23:42.186Z"}
+{"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:26:34.346Z"}
+{"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:27:54.720Z"}
+{"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:28:50.919Z"}
