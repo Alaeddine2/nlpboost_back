@@ -29,8 +29,8 @@ var parseServer = new ParseServer({
     fileKey: env.PARSE_FILEKEY || 'NplBoostFileKey',
     webhookKey: env.PARSE_WEBHOOKKEY || 'NplBoostWebhookKey',
     dotNetKey: env.PARSE_DOTNETKEY || 'NplBoostDotNetKey',
-    serverURL: `${host}:${port}${mountPath}`,//
-    publicServerURL: `${host}:${port}${mountPath}`,//
+    serverURL: `${host}${mountPath}`,//:${port}
+    publicServerURL: `${host}${mountPath}`,//:${port}
     verifyUserEmails: false, 
     emailVerifyTokenValidityDuration: 24 * 60 * 60,
     preventLoginWithUnverifiedEmail: false,
