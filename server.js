@@ -69,9 +69,9 @@ var parseServer = new ParseServer({
     //     choosePassword: "http://localhost:1337/choosePassword",
     //     parseFrameURL: "http://localhost:1337/parseFrameURL",
     // },
-    liveQuery: {
-        classNames: ['_User', '_Offers']
-    }
+    // liveQuery: {
+    //     classNames: ['_User', '_Offers']
+    // }
 });
 
 
@@ -94,8 +94,8 @@ let dashboard = new ParseDashboard({
             clientKey: env.PARSE_CLIENTKEY || 'NplBoostClientKey',
             javascriptKey: env.PARSE_JAVASCRIPTKEY || 'NplBoostJavascriptKey',
             restApiKey: env.PARSE_RESTAPIKEY || 'NplBoostApiKey',
-            graphQLServerURL: `${host}:${port}${mountPathGraphQL}`,//
-            serverURL: `${host}:${port}${mountPath}`,//
+            graphQLServerURL: `${host}:${port}${mountPathGraphQL}`,
+            serverURL: `${host}:${port}${mountPath}`,
             iconName: env.DASH_ICON || "logo.png"
         },
     ],
