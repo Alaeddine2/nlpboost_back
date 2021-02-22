@@ -8,3 +8,5 @@
 {"code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":1337,"level":"error","timestamp":"2021-02-22T14:28:50.918Z"}
 {"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-02-22T18:02:12.801Z"}
 {"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-02-22T18:32:08.434Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-02-22T18:32:54.724Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-02-22T18:37:29.928Z"}
