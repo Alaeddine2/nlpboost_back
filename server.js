@@ -140,6 +140,7 @@ parseGraphQLServer.applyPlayground(app);
 var server = http.createServer(app);
 
 server.listen(port, function () {
+    console.log('\ndatabaseUri: '+ databaseUri)
     console.log('\nNLPBOOST server is now running on port ' + port + '.');
     console.log(`\nServer URL   : ${host}:${port}${mountPath}`);
     console.log(`GraphQL URL  : ${host}:${port}${mountPathGraphQL}`);
