@@ -1,0 +1,24 @@
+{
+    "apps": [
+      {
+        "serverURL": "https://api.parse.com/1",
+        "appId": "NplBoostAppId",
+        "javascriptKey": "NplBoostJavascriptKey",
+        "restKey": "NplBoostRestKey",
+        "appName": "NplBoost",
+        "production": true
+      },
+      {
+        "serverURL": "https://nplboost.herokuapp.com/parse",
+        "appId": "NplBoostAppId",
+        "masterKey": "NplBoostMasterKey",
+        "appName": "NplBoost"
+      }
+    ],
+    "users": [
+      {
+        "user":"admin",
+        "pass":"admin"
+      }
+    ]
+  }
