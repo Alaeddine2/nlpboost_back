@@ -113,8 +113,8 @@ let app = express();
 
 app.use(mountPath, parseServer.app);
 app.use(mountPathDash, dashboard);
-//app.use(bodyParser.json());
-//app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 app.use('/public', express.static(path.join(__dirname, '/public')));
 // app.get('/passwordResetSuccess', function (_, res) { res.sendFile(path.join(__dirname, '/public/password_reset_success.html')); });
 // app.get('/verifyEmailSuccess', function (_, res) { res.sendFile(path.join(__dirname, '/public/verify_email_success.html')); });

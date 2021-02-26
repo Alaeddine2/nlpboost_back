@@ -1,0 +1,1 @@
+{"message":"Invalid username/password.","code":101,"level":"error","stack":"Error: Invalid username/password.\n    at C:\\Users\\AlaEddine\\Desktop\\Marwen\\BackEnd\\node_modules\\parse-server\\lib\\Routers\\UsersRouter.js:132:17\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","timestamp":"2021-02-25T21:35:31.041Z"}
