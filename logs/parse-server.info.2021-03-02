@@ -1,0 +1,7 @@
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-03-01T23:41:33.701Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-03-02T10:05:35.210Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-03-02T10:54:57.988Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-03-02T14:15:21.916Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2021-03-02T18:45:24.333Z"}
+{"message":"Invalid username/password.","code":101,"level":"error","stack":"Error: Invalid username/password.\n    at C:\\Users\\AlaEddine\\Desktop\\Marwen\\BackEnd\\node_modules\\parse-server\\lib\\Routers\\UsersRouter.js:132:17\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","timestamp":"2021-03-02T18:49:17.535Z"}
+{"message":"Invalid username/password.","code":101,"level":"error","stack":"Error: Invalid username/password.\n    at C:\\Users\\AlaEddine\\Desktop\\Marwen\\BackEnd\\node_modules\\parse-server\\lib\\Routers\\UsersRouter.js:132:17\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)","timestamp":"2021-03-02T21:08:18.896Z"}
