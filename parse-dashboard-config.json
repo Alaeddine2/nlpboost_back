@@ -1,7 +1,7 @@
 {
     "apps": [
       {
-        "serverURL": "https://git.heroku.com/nplboost-coach.git/parse",
+        "serverURL": "https://nplboost.herokuapp.com",
         "appId": "NplBoostAppId",
         "javascriptKey": "NplBoostJavascriptKey",
         "restKey": "NplBoostRestKey",
@@ -9,7 +9,7 @@
         "production": true
       },
       {
-        "serverURL": "https://git.heroku.com/nplboost-coach.git/parse",
+        "serverURL": "https://nplboost.herokuapp.com",
         "appId": "NplBoostAppId",
         "masterKey": "NplBoostMasterKey",
         "appName": "NplBoost"
