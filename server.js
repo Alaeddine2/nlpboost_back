@@ -1,8 +1,9 @@
 require('dotenv').config()
 
-const { ParseDashboard, ParseServer, ParseGraphQLServer, express, path, http } = require('./app');
+const { ParseDashboard, ParseServer, ParseGraphQLServer, express, path, http, cors} = require('./app');
 const { env } = require('process')
 var bodyParser = require('body-parser');
+
 const databaseUri = env.DB_URL;
 
 if (!databaseUri) {
@@ -110,6 +111,7 @@ let dashboard = new ParseDashboard({
 
 
 let app = express();
+app.use(cors())
 
 app.use(mountPath, parseServer.app);
 app.use(mountPathDash, dashboard);

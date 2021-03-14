@@ -7,7 +7,8 @@ const http = require('http')
 const path = require('path')
 const fs = require('fs');
 const cheerio = require('cheerio');
+const cors = require('cors')
 
 
 
-module.exports = { ParseDashboard, ParseServer, ParseGraphQLServer, express, path, http} 
+module.exports = { ParseDashboard, ParseServer, ParseGraphQLServer, express, path, http, cors} 
