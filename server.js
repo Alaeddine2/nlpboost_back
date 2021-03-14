@@ -19,7 +19,7 @@ let hasSMTPInfo = env.EMAIL_USER && env.EMAIL_PASSWORD
 console.log('URL:' + `${host}:${port}${mountPath}`);
 var parseServer = new ParseServer({
     cloud: __dirname + '/cloud/main.js',
-    databaseURI: databaseUri,
+    databaseURI: databaseUri || env.DB_URL,
     appName: env.PARSE_APPNAME || 'NplBoost',
     appId: env.PARSE_APPID || 'NplBoostAppId',
     masterKey: env.PARSE_MASTERKEY || 'NplBoostMasterKey',
@@ -29,8 +29,8 @@ var parseServer = new ParseServer({
     fileKey: env.PARSE_FILEKEY || 'NplBoostFileKey',
     webhookKey: env.PARSE_WEBHOOKKEY || 'NplBoostWebhookKey',
     dotNetKey: env.PARSE_DOTNETKEY || 'NplBoostDotNetKey',
-    serverURL: `${host}:${port}${mountPath}`,
-    publicServerURL: `${host}:${port}${mountPath}`,
+    serverURL: `${host}${mountPath}`,//:${port}
+    publicServerURL: `${host}${mountPath}`,//:${port}
     verifyUserEmails: false, 
     emailVerifyTokenValidityDuration: 24 * 60 * 60,
     preventLoginWithUnverifiedEmail: false,
@@ -94,8 +94,8 @@ let dashboard = new ParseDashboard({
             clientKey: env.PARSE_CLIENTKEY || 'NplBoostClientKey',
             javascriptKey: env.PARSE_JAVASCRIPTKEY || 'NplBoostJavascriptKey',
             restApiKey: env.PARSE_RESTAPIKEY || 'NplBoostApiKey',
-            graphQLServerURL: `${host}:${port}${mountPathGraphQL}`,
-            serverURL: `${host}:${port}${mountPath}`,
+            graphQLServerURL: `${host}${mountPathGraphQL}`,//:${port}
+            serverURL: `${host}${mountPath}`,//:${port}
             iconName: env.DASH_ICON || "logo.png"
         },
     ],
